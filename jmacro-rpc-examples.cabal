@@ -8,5 +8,6 @@ cabal-version:       >=1.10
 
 executable jmacro-rpc-examples
   main-is: Main.hs
-  build-depends:       base, mtl, text, jmacro, jmacro-rpc, jmacro-rpc-snap, snap-server, snap-core, blaze-html
+  ld-options: -static -pthread
+  build-depends:       base, mtl, text, jmacro, jmacro-rpc, jmacro-rpc-snap, snap-server, snap-core, blaze-html, xhtml
   default-language:    Haskell2010

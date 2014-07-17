@@ -17,6 +17,7 @@ cabal.mkDerivation (self : rec {
 	jmacro jmacroRpc jmacroRpcSnap
 	snapServer
         snapCore
+        xhtml
         blazeHtml
     ];
     buildTools = [ haskellPackages.cabalInstall_1_20_0_3 ];
